@@ -69,6 +69,7 @@ public:
 	void resolveInverseAttributes();
 	void unsetInverseAttributes();
 	void clearIfcModel();
+	void clearEntities() { m_map_entities.clear(); }
 	void initIfcModel();
 	void initCopyIfcModel( const shared_ptr<BuildingModel>& other );
 	void resetIfcModel();
