@@ -20,6 +20,7 @@
 *.pdb
 *.tlog
 *.log
+*.vcxproj.user
 bin
 bin32
 /build/
